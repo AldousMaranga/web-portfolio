@@ -11,13 +11,15 @@
   text-align: center;
   position: fixed;
   height: 80px;
+  /* background-color: transparent; */
   background-color: #D7DFD6;
+  z-index: 2;
   
 }
 
 .scrolled .cont {
   box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
-  /* background-color: #ffffff; */
+  
 }
 
 .nav-cont{

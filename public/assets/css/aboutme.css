@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
+.bg-image {
+    width: 100%;
+    height: auto;
+}
+
 .am-container {
     display: flex;
     align-items: center;
@@ -21,7 +26,6 @@
 .am-column2 {
     display: inline-block;
     width: 60%;
-    background-color: #D7DFD6;
 }
 
 .sub-title {
@@ -40,32 +44,45 @@
 
 .main-title {
     font-family: Montserrat, -apple-system, Roboto, Helvetica Neue, sans-serif !important;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .prof{
     width: 300px;
     background-color: black;
     color: #D7DFD6;
+    text-decoration: none;
+    padding: 10px;
 }
 
-.am-header {
+.about-cont{
+    display: flex;
     align-items: center;
     text-align: center; 
-}
-
-.am-text-cont {
-    width: 600px;
+    justify-content: center;
     margin: auto;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.am-img1 {
+    width: 200px;
+    height: auto;
+}
+
+.am-text-cont {
+    width: 400px;
     text-align: justify;
+    padding-right: 50px;
+}
+
+.am-text {
+    line-height: 25px;
 }
 
 .edu-cont {
-    /* margin: auto; */
     align-items: center;
     background-color:#D7DFD6;
     padding: 60px 10vw 60px 10vw;

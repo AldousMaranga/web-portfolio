@@ -3,8 +3,9 @@ import React, { Component } from "react";
 class AboutMe extends Component {
     render() {
         return (
-            <div style={{ paddingTop: "80px" }} className="container">
+            <div style={{ paddingTop: '80px' }} className="container">
                 <div className="am-container">
+
                     <div className="am-column1">
                         <img
                             src="assets/images/abam.png"
@@ -17,26 +18,29 @@ class AboutMe extends Component {
                     <div className="am-column2">
                         <div className="sub-title">I'm a <span className="typewriter">Software Engineer</span></div>
                         <div className="main-title">Aldous Benjamin A. Maranga</div>
-                        <a href='' className="prof">Download Resume</a>
+                        <a href='https://drive.google.com/file/d/1DLFLAo5_wBW-zkdvw0-SVlSWCzB1EOsi/view?usp=sharing' target="_blank" rel="noreferrer" className="prof">Download Resume</a>
                     </div>
                 </div>
 
-                <div className="am-text-cont">
-                    <div className="header am-header">About Me</div>
-                    <div className="am-text">
-                        My name is Aldous Benjamin A. Maranga, you can call me Aldous for short. I am
-                        currently studying at Lithan Academy Singapore as a Software
-                        Engineer. I enjoy solving problems on real-time and through coding
-                        structures as well as understanding the meaning behind a certain
-                        functionality.
+                <div className="about-cont">
+                    <div className="am-text-cont">
+                        <div className="header am-header">About Me</div>
+                        <div className="am-text">
+                            Hi! You can call me Aldous. I am a Software 
+                            Egineer student at Lithan Academy Singapore. I enjoy solving problems on real-time and through coding
+                            structures as well as understanding the meaning behind a certain
+                            functionality.
+                        </div>
                     </div>
+                    <img src="assets/images/abam1.png" alt="img" className="am-img1" />
                 </div>
+
 
                 <div className="edu-cont">
                     <div className="header" style={{ textAlign: 'center' }}>Education</div>
                     <div className="edu-container">
                         <div className="edu-column1">
-                            <div>
+                            <div style={{ paddingBottom: '30px' }}>
                                 <div className="header1 edu-degree">Applied Degree in Software Engineering</div>
                                 <div className="edu-date">2022-Present</div>
                                 <div className="edu-school">Lithan Academy</div>
@@ -52,7 +56,7 @@ class AboutMe extends Component {
                         </div>
 
                         <div className="edu-column2">
-                            <div>
+                            <div style={{ paddingBottom: '30px' }}>
                                 <div className="header1 edu-degree">Bachelor of Science in Information Technology</div>
                                 <div className="edu-date">2022-Present</div>
                                 <div className="edu-school">University of Cebu-Banilad</div>
