@@ -1,0 +1,14 @@
+.skills-cont {
+    background-color: #D7DFD6;
+    padding: 60px;
+}
+
+.skill-column {
+    display: flex;
+}
+
+.skill-card {
+    flex: 1;
+    background-color: yellow;
+    width: 5px 5px;
+}
