@@ -82,29 +82,49 @@
     line-height: 25px;
 }
 
+.exp-cont{
+    background-color:#D7DFD6;
+    padding: 60px 10vw 60px 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-img {
+    width: 300px;
+    height: auto;
+    padding-right: 50px;
+}
+
 .edu-cont {
     align-items: center;
-    background-color:#D7DFD6;
     padding: 60px 10vw 60px 10vw;
 }
 
 .edu-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .edu-column1 {
     display: inline-block;
-    width: calc(50vw - 5vw);
-    margin-right: 10vw;
+    width: 30vw;
 }
 
-.edu-column2 {
-    display: inline-block;
-    width: calc(50vw - 5vw);
+
+.edu-date {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    border: 1px black;
+    color: white;
 }
 
 .edu-school {
     font-weight: bold;
 }
+
+
 
  
