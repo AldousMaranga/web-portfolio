@@ -47,6 +47,7 @@
 
 .nav.active {
   color: #006400;
+  font-weight: bold;
 }
 
 .header {

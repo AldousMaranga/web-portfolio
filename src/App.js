@@ -40,7 +40,7 @@ const App = () => {
               <Link to="/aboutMe" className={activeLink === 'aboutMe' ? 'nav active' : 'nav'} onClick={() => handleLinkClick('aboutMe')}>About Me</Link>
               <Link to="/skills" className={activeLink === 'skills' ? 'nav active' : 'nav'} onClick={() => handleLinkClick('skills')}>Skills</Link>
               <Link to="projects" className={activeLink === 'projects' ? 'nav active' : 'nav'} onClick={() => handleLinkClick('projects')}>Projects</Link>
-              <Link to="/education" className={activeLink === 'contact' ? 'nav active' : 'nav'} onClick={() => handleLinkClick('education')}>Contact</Link>
+              <Link to="/contact" className={activeLink === 'contact' ? 'nav active' : 'nav'} onClick={() => handleLinkClick('contact')}>Contact</Link>
             </div>
             <div style={{ width: '80px' }}></div>
           </nav>
@@ -49,7 +49,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<AboutMe />} />
             <Route path="/aboutMe" element={<AboutMe />} />
-            <Route path="/education" element={<Contact />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/skills" element={<Skills />} />
           </Routes>

@@ -18,7 +18,7 @@ class Projects extends Component {
                                 </div>
 
                                 <div className='back-card'>
-                                    <img src='assets/images/projects/mow.png' alt='img' className='p-img-back' />
+                                    <img src='assets/images/projects/taomish.png' alt='img' className='p-img-back' />
                                 </div>
                             </div>
                         </div>
@@ -31,7 +31,7 @@ class Projects extends Component {
                                 </div>
 
                                 <div className='back-card'>
-                                    <img src='assets/images/projects/mow.png' alt='img' className='p-img-back' />
+                                    <img src='assets/images/projects/jumpstart.png' alt='img' className='p-img-back' />
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,8 @@ class Projects extends Component {
                                 </div>
 
                                 <div className='back-card'>
-                                    <img src='assets/images/projects/mow.png' alt='img' className='p-img-back' />
+                                    <img src='assets/images/projects/kyn.png' alt='img' className='p-img-back' />
+                                    <div className='p-img-back1'>Hi</div>
                                 </div>
                             </div>
                         </div>
